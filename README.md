@@ -12,13 +12,14 @@ Ex. robot criarconta.robot
 
 Instaladores
 
+
 Python
 
 https://www.python.org/downloads/
 
-SeleniumLibrary
 
-GitHub - robotframework/SeleniumLibrary: Web testing library for Robot Framework 
+SeleniumLibrary robotframework/SeleniumLibrary:
+
 
 ChromeDriver
 
