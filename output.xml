@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.7.9 on win32)" generated="20210920 00:48:02.235" rpa="false" schemaversion="2">
+<suite id="s1" name="Avaliacao" source="C:\Users\User\Desktop\roitrobot\TesteYoux\avaliacao.robot">
+<test id="s1-t1" name="Avaliação">
+<kw name="acessar site">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>url=http://automationpractice.com/</arg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210920 00:48:02.636" level="INFO">Opening browser 'chrome' to base url 'http://automationpractice.com/'.</msg>
+<status status="PASS" starttime="20210920 00:48:02.636" endtime="20210920 00:48:20.524"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="header"]/div[2]/div/div/nav/div[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20210920 00:48:20.528" level="INFO">Clicking element 'xpath=//*[@id="header"]/div[2]/div/div/nav/div[1]/a'.</msg>
+<status status="PASS" starttime="20210920 00:48:20.526" endtime="20210920 00:48:28.651"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210920 00:48:28.651" endtime="20210920 00:48:28.776"/>
+</kw>
+<status status="PASS" starttime="20210920 00:48:02.635" endtime="20210920 00:48:28.776"/>
+</kw>
+<kw name="login">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath=//*[@id="email"]</arg>
+<arg>vagnerosta@youx.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20210920 00:48:28.776" level="INFO">Typing text 'vagnerosta@youx.com' into text field 'xpath=//*[@id="email"]'.</msg>
+<status status="PASS" starttime="20210920 00:48:28.776" endtime="20210920 00:48:29.003"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath=//*[@id="passwd"]</arg>
+<arg>12345</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20210920 00:48:29.003" level="INFO">Typing text '12345' into text field 'xpath=//*[@id="passwd"]'.</msg>
+<status status="PASS" starttime="20210920 00:48:29.003" endtime="20210920 00:48:29.159"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath=//*[@id="SubmitLogin"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20210920 00:48:29.161" level="INFO">Clicking button 'xpath=//*[@id="SubmitLogin"]'.</msg>
+<status status="PASS" starttime="20210920 00:48:29.160" endtime="20210920 00:48:35.781"/>
+</kw>
+<status status="PASS" starttime="20210920 00:48:28.776" endtime="20210920 00:48:35.781"/>
+</kw>
+<kw name="Avaliação Estrela">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="block_top_menu"]/ul/li[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20210920 00:48:35.784" level="INFO">Clicking element 'xpath=//*[@id="block_top_menu"]/ul/li[2]'.</msg>
+<status status="PASS" starttime="20210920 00:48:35.784" endtime="20210920 00:48:42.380"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="categories_block_left"]/div/ul/li[2]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20210920 00:48:42.381" level="INFO">Clicking element 'xpath=//*[@id="categories_block_left"]/div/ul/li[2]/a'.</msg>
+<status status="PASS" starttime="20210920 00:48:42.380" endtime="20210920 00:48:43.954"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="center_column"]/ul/li</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20210920 00:48:43.955" level="INFO">Clicking element 'xpath=//*[@id="center_column"]/ul/li'.</msg>
+<status status="PASS" starttime="20210920 00:48:43.954" endtime="20210920 00:48:45.635"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210920 00:48:49.641" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20210920 00:48:45.635" endtime="20210920 00:48:49.641"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="new_comment_tab_btn"]/span</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20210920 00:48:49.641" level="INFO">Clicking element 'xpath=//*[@id="new_comment_tab_btn"]/span'.</msg>
+<status status="PASS" starttime="20210920 00:48:49.641" endtime="20210920 00:48:49.828"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="criterions_list"]/li/div[1]/div[6]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20210920 00:48:49.829" level="INFO">Clicking element 'xpath=//*[@id="criterions_list"]/li/div[1]/div[6]/a'.</msg>
+<status status="PASS" starttime="20210920 00:48:49.828" endtime="20210920 00:48:49.940"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath=//*[@id="comment_title"]</arg>
+<arg>Avaliação de teste</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20210920 00:48:49.940" level="INFO">Typing text 'Avaliação de teste' into text field 'xpath=//*[@id="comment_title"]'.</msg>
+<status status="PASS" starttime="20210920 00:48:49.940" endtime="20210920 00:48:50.168"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath=//*[@id="content"]</arg>
+<arg>comentário de testes</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20210920 00:48:50.169" level="INFO">Typing text 'comentário de testes' into text field 'xpath=//*[@id="content"]'.</msg>
+<status status="PASS" starttime="20210920 00:48:50.169" endtime="20210920 00:48:50.320"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath=//*[@id="submitNewMessage"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20210920 00:48:50.321" level="INFO">Clicking button 'xpath=//*[@id="submitNewMessage"]'.</msg>
+<status status="PASS" starttime="20210920 00:48:50.320" endtime="20210920 00:48:50.408"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210920 00:48:54.413" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20210920 00:48:50.408" endtime="20210920 00:48:54.413"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath=//*[@id="product"]/div[2]/div/div/div/p[2]/button/span</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20210920 00:48:54.413" level="INFO">Clicking button 'xpath=//*[@id="product"]/div[2]/div/div/div/p[2]/button/span'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20210920 00:48:54.709" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-100.png"&gt;&lt;img src="selenium-screenshot-100.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210920 00:48:54.444" endtime="20210920 00:48:54.710"/>
+</kw>
+<msg timestamp="20210920 00:48:54.716" level="FAIL">Button with locator 'xpath=//*[@id="product"]/div[2]/div/div/div/p[2]/button/span' not found.</msg>
+<status status="FAIL" starttime="20210920 00:48:54.413" endtime="20210920 00:48:54.716"/>
+</kw>
+<status status="FAIL" starttime="20210920 00:48:35.782" endtime="20210920 00:48:54.718"/>
+</kw>
+<status status="FAIL" starttime="20210920 00:48:02.634" endtime="20210920 00:48:54.719">Button with locator 'xpath=//*[@id="product"]/div[2]/div/div/div/p[2]/button/span' not found.</status>
+</test>
+<doc>caso de teste para validar Avaliação de compra</doc>
+<status status="FAIL" starttime="20210920 00:48:02.235" endtime="20210920 00:48:54.723"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Avaliacao">Avaliacao</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
